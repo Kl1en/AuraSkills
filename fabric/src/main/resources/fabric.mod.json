@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "auraskills",
+  "version": "${version}",
+  "name": "AuraSkills (Fabric)",
+  "description": "Fabric port skeleton for AuraSkills",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "com.auraskills.fabric.AuraSkillsFabric"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*"
+  },
+  "contact": {
+    "issues": "https://github.com/your-fork/AuraSkills/issues"
+  },
+  "license": "GPL-3.0-or-later"
+}
